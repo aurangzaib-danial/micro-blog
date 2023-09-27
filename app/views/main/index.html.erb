@@ -20,9 +20,17 @@
       <div class="border-b border-gray-200 flex-grow"></div>
     </div>
 
-    <div><button class="bg-blue-600 text-white welcome-btn">Create account</button></div>
+    <div>
+      <%= link_to new_user_registration_path do %>
+        <button class="primary-btn welcome-btn">Create account</button>
+      <% end %>
+    </div>
 
     <h4 class="font-bold mt-20 mb-4">Already have an account?</h4>
-    <div><button class="bg-white text-blue-500 border-2 border-gray-300 welcome-btn">Sign in</button></div>
+    <div>
+      <%= link_to new_user_session_path do %>
+        <button class="bg-white text-blue-500 border-2 border-gray-300 welcome-btn">Sign in</button>
+      <% end %>
+    </div>
   </div>
 </div>

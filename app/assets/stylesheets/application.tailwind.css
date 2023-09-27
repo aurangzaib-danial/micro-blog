@@ -15,3 +15,11 @@
 .welcome-btn {
   @apply rounded-full w-72 h-11 py-2 font-bold;
 }
+
+.auth-field {
+  @apply rounded w-full p-2 my-4;
+}
+
+.primary-btn {
+  @apply bg-blue-600 text-white rounded-full;
+}
