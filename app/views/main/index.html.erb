@@ -1,0 +1,28 @@
+<!-- Set title to => Micro Blog. It's what's happening -->
+<div class="p-12 grid md:grid-cols-2 md:gap-20">
+  <div>
+    <h1 class="text-3xl md:text-9xl md:text-center md:my-8">Micro Blog</h1>
+  </div>
+
+  <div>
+    <h2 class="font-bold text-4xl my-8 md:text-6xl">Happening now</h2>
+    <h3 class="font-bold text-xl my-4 md:text-2xl">Join today.</h3>
+    <div>
+      <button class="bg-white text-black border-2 border-gray-300 welcome-btn">
+        <%= image_tag "github.svg", class: "inline w-6 mr-1" %>
+        <span>Sign up with Github</span>
+      </button>
+    </div>
+
+    <div class="flex items-center w-72 my-2">
+      <div class="border-b border-gray-200 flex-grow"></div>
+      <div class="mx-2">or</div>
+      <div class="border-b border-gray-200 flex-grow"></div>
+    </div>
+
+    <div><button class="bg-blue-600 text-white welcome-btn">Create account</button></div>
+
+    <h4 class="font-bold mt-20 mb-4">Already have an account?</h4>
+    <div><button class="bg-white text-blue-500 border-2 border-gray-300 welcome-btn">Sign in</button></div>
+  </div>
+</div>
